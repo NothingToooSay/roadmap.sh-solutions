@@ -8,4 +8,4 @@ Each project focuses on a specific skill or set of skills commonly used in front
 
 | Project | Description | Technologies | Task |
 | --- | --- | --- | --- |
-| [Basic One-Page Resume](./01-single-page-cv) | Simple one-page resume built with pure HTML and CSS | HTML, CSS | [View Task](https://roadmap.sh/projects/single-page-cv) |
+| [Basic One-Page Resume](./Frontend/01-single-page-cv/) | Simple one-page resume built with pure HTML and CSS | HTML, CSS | [View Task](https://roadmap.sh/projects/single-page-cv) |
