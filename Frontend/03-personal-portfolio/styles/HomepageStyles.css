@@ -139,3 +139,66 @@ footer p {
     color: #9fadb9;
     background-color: #26303e;
 }
+
+@media (max-width: 768px) {
+    .mainTitle {
+        grid-column: span 3;
+    }
+
+    .projects {
+        grid-column: span 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .projects ul,
+    .projects li {
+        width: 100%;
+    }
+
+    .work {
+        grid-column: span 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .work h2 {
+        text-align: center;
+    }
+
+    .work article {
+        width: 100%;
+        text-align: center;
+    }
+
+    .education {
+        grid-column: span 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .education p {
+        text-align: center;
+    }
+
+    .reviews {
+        grid-column: span 3;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blockquotes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

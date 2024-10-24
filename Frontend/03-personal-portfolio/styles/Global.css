@@ -12,6 +12,10 @@ body {
     margin: 0 auto;
 }
 
+.active {
+    color: darkgray;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -114,4 +118,25 @@ input:checked ~ .slider::before {
     transform: translateX(35px);
     background-color: #28292c;
     box-shadow: none;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navigation ul {
+        margin-top: 0;
+    }
+
+    .toggleSwitch {
+        margin: 10px;
+    }
 }
