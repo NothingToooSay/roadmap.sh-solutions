@@ -1,89 +1,89 @@
 main {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .mainTitle {
-  grid-column: span 3;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 100px;
+    grid-column: span 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
 }
 
 .mainTitle h1 {
-  font-size: 3rem;
+    font-size: 3rem;
 }
 
 .mainTitle p {
-  font-size: 1.2rem;
-  margin: 0;
+    font-size: 1.2rem;
+    margin: 0;
 }
 
 .projects {
-  grid-column: span 1;
+    grid-column: span 1;
 }
 
 .projects ul {
-  list-style-type: none;
-  padding: 0;
+    list-style-type: none;
+    padding: 0;
 }
 
 .projects li {
-  font-size: 1.1rem;
-  padding-top: 1rem;
+    font-size: 1.1rem;
+    padding-top: 1rem;
 }
 
 .work {
-  grid-column: span 1;
+    grid-column: span 1;
 }
 
 .education {
-  grid-column: span 1;
+    grid-column: span 1;
 }
 
 .education ul {
-  list-style-type: none;
-  padding-left: 0;
+    list-style-type: none;
+    padding-left: 0;
 }
 
 .education ul li::before {
-  content: "-";
-  padding-right: 10px;
-  color: black;
-  font-weight: bold;
+    content: "-";
+    padding-right: 10px;
+    color: black;
+    font-weight: bold;
 }
 
 .reviews {
-  grid-column: span 3;
-  display: flex;
-  flex-direction: column;
+    grid-column: span 3;
+    display: flex;
+    flex-direction: column;
 }
 
 .blockquotes {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 blockquote {
-  font-size: 1.1rem;
-  padding: 1rem;
-  border: 2px solid #000;
-  border-radius: 1.5rem;
+    font-size: 1.1rem;
+    padding: 1rem;
+    border: 2px solid #000;
+    border-radius: 1.5rem;
 }
 
 blockquote footer {
-  color: gray;
+    color: gray;
 }
 
 footer p {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 100px;
-  padding-bottom: 50px;
-  font-size: 1.2rem;
-  font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
