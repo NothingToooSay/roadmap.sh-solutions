@@ -1,0 +1,141 @@
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.mainTitle {
+  grid-column: span 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  background-color: #f7f7f7;
+  color: #c8c8c8;
+}
+
+.mainTitle h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #88cd97;
+}
+
+.mainTitle p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.projects {
+  grid-column: span 1;
+  background-color: #f7f7f7;
+}
+
+.projects h2 {
+  padding-left: 10px;
+  color: #fb6b5b;
+}
+
+.projects ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.projects li {
+  position: relative;
+  padding: 10px;
+  width: 200px;
+  height: 40px;
+  font-size: 1.1rem;
+  padding-top: 1rem;
+  overflow: hidden;
+  cursor: pointer;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  transition: background 0.3s ease;
+}
+
+.projects li:hover {
+  background: #fb6b5b;
+}
+
+.work {
+  grid-column: span 1;
+  background-color: #f7f7f7;
+}
+
+.work h2 {
+  color: #ffc334;
+}
+
+.work a {
+  text-decoration: none;
+  color: #e0c075;
+}
+
+.work a:hover {
+  color: #ffc334;
+}
+
+.education {
+  grid-column: span 1;
+  padding-right: 15px;
+  background-color: #f7f7f7;
+}
+
+.education h2 {
+  color: #48a75b;
+}
+
+.education ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.education ul li::before {
+  content: "-";
+  padding-right: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+.reviews {
+  grid-column: span 3;
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f7;
+}
+
+.reviews h2 {
+  padding-left: 10px;
+  color: #4dc0c1;
+}
+
+.blockquotes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+blockquote {
+  font-size: 1.1rem;
+  padding: 1rem;
+  border: 2px solid #000;
+  border-radius: 1.5rem;
+}
+
+blockquote footer {
+  color: gray;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #9fadb9;
+  background-color: #26303e;
+}
