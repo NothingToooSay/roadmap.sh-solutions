@@ -11,3 +11,4 @@ Each project focuses on a specific skill or set of skills commonly used in front
 | [Basic One-Page Resume](./Frontend/01-single-page-cv/) | Simple one-page resume built with pure HTML and CSS | HTML, CSS | [View Task](https://roadmap.sh/projects/single-page-cv) |
 | [Simple HTML Website](./Frontend/02-basic-html-website/) | Create simple HTML only website with multiple pages | HTML, CSS | [View Task](https://roadmap.sh/projects/basic-html-website) |
 | [Personal Portfolio](./Frontend/03-personal-portfolio/) | Create Personal Portfolio only website with adaptive layout | HTML, CSS, JS | [View Task](https://roadmap.sh/projects/portfolio-website) |
+| [Personal Portfolio](./Frontend/04-changelog-component/) | Create a changelog component for a website using HTML and CSS | HTML, CSS | [View Task](https://roadmap.sh/projects/changelog-component) |
