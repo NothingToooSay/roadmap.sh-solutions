@@ -13,4 +13,4 @@ Each project focuses on a specific skill or set of skills commonly used in front
 | [Personal Portfolio](./Frontend/03-personal-portfolio/) | Create Personal Portfolio only website with adaptive layout | HTML, CSS, JS | [View Task](https://roadmap.sh/projects/portfolio-website) |
 | [Changelog Component](./Frontend/04-changelog-component/) | Create a changelog component for a website using HTML and CSS | HTML, CSS | [View Task](https://roadmap.sh/projects/changelog-component) |
 | [Testimonial Cards](./Frontend/05-testimonial-cards/) | Create testimonial cards for a website | HTML, CSS, JS | [View Task](https://roadmap.sh/projects/testimonial-cards) |
-| [Testimonial Cards](./Frontend/06-datepicker-ui/) | Create a simple datepicker UI | HTML, CSS | [View Task](https://roadmap.sh/projects/datepicker-ui) |
+| [Datepicker UI](./Frontend/06-datepicker-ui/) | Create a simple datepicker UI | HTML, CSS | [View Task](https://roadmap.sh/projects/datepicker-ui) |
