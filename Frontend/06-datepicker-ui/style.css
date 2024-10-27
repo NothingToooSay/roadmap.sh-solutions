@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    width: 280px;
+    margin: 100px auto;
+    background-color: #adadad;
+}
+
+.date-picker-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border: 2px solid #1e1e1e;
+    border-radius: 30px;
+}
+
+.date-header {
+    display: flex;
+    gap: 10px;
+}
+
+.date-input {
+    font-size: 1.3rem;
+    width: 13rem;
+    height: 2rem;
+    padding: 10px;
+    background-color: #1e1e1e;
+    border: none;
+    border-radius: 10px;
+}
+
+.date-btn {
+    width: 2rem;
+    height: 2rem;
+    background-color: #88cd97;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.date-btn img {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.date-navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.prev-month {
+    padding: 5px;
+    background-color: inherit;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.next-month {
+    padding: 5px;
+    background-color: inherit;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.month-label {
+    font-size: 1.4rem;
+}
+
+.day-names {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.days span {
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+    border-right: 1px solid #1e1e1e;
+    border-bottom: 1px solid #1e1e1e;
+}
