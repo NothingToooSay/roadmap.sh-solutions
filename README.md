@@ -14,5 +14,6 @@ Each project focuses on a specific skill or set of skills commonly used in front
 | [Changelog Component](./Frontend/04-changelog-component/) | Create a changelog component for a website using HTML and CSS | HTML, CSS | [View Task](https://roadmap.sh/projects/changelog-component) |
 | [Testimonial Cards](./Frontend/05-testimonial-cards/) | Create testimonial cards for a website | HTML, CSS, JS | [View Task](https://roadmap.sh/projects/testimonial-cards) |
 | [Datepicker UI](./Frontend/06-datepicker-ui/) | Create a simple datepicker UI | HTML, CSS | [View Task](https://roadmap.sh/projects/datepicker-ui) |
+| [Accessible Form UI](./Frontend/07-accessible-form-ui) | Create an accessible form UI | HTML, CSS | [View Task](https://roadmap.sh/projects/accessible-form-ui) |
 | [Image Grid Layout](./Frontend/08-image-grid-layout/) | Create a grid layout of images | HTML, CSS | [View Task](https://roadmap.sh/projects/image-grid) |
 | [Tooltip UI](./Frontend/09-tooltip-ui) | Create a tooltip for navigation items | HTML, CSS | [View Task](https://roadmap.sh/projects/tooltip-ui) |

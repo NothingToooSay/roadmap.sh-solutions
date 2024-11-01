@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Accessible Form UI</title>
+        <!-- Styles -->
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <form class="form">
+                <div class="leftSide">
+                    <label for="fullName">Full Name</label>
+                    <input
+                        type="text"
+                        name="fullName"
+                        id="fullName"
+                        placeholder="What should we call you ?"
+                        class="input"
+                    />
+                    <label for="email">Email</label>
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        value="john@doe.com"
+                        class="input active"
+                    />
+                    <span class="span">Email is already taken</span>
+
+                    <label for="firstPass">Enter Password</label>
+                    <div class="password-container">
+                        <input
+                            type="password"
+                            name="firstPass"
+                            id="firstPass"
+                            placeholder="xxxxxxxx"
+                            class="input"
+                        />
+                        <span class="toggle-password">
+                            <img src="../../assets/eye.svg" alt="" />
+                        </span>
+                    </div>
+
+                    <label for="secondPass">Confirm Password</label>
+                    <div class="password-container">
+                        <input
+                            type="password"
+                            name="secondPass"
+                            id="secondPass"
+                            placeholder="xxxxxxxx"
+                            class="input"
+                        />
+                        <span class="toggle-password">
+                            <img src="../../assets/eye.svg" alt="" />
+                        </span>
+                    </div>
+
+                    <input
+                        type="submit"
+                        value="Update Profile"
+                        class="submit"
+                    />
+                </div>
+                <div class="rightSide">
+                    <div class="round">
+                        <p>65%</p>
+                    </div>
+                    <h2>Profile Completeness</h2>
+                    <div class="tasks">
+                        <p class="crossed-out">Create Account</p>
+                        <p class="crossed-out">Update Roadmap Progress</p>
+                        <p class="crossed-out">Setup Public Profile</p>
+                        <p>Complete Your First Project</p>
+                        <p>Invite Your Friends</p>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
