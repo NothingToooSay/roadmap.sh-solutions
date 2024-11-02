@@ -17,3 +17,4 @@ Each project focuses on a specific skill or set of skills commonly used in front
 | [Accessible Form UI](./Frontend/07-accessible-form-ui) | Create an accessible form UI | HTML, CSS | [View Task](https://roadmap.sh/projects/accessible-form-ui) |
 | [Image Grid Layout](./Frontend/08-image-grid-layout/) | Create a grid layout of images | HTML, CSS | [View Task](https://roadmap.sh/projects/image-grid) |
 | [Tooltip UI](./Frontend/09-tooltip-ui) | Create a tooltip for navigation items | HTML, CSS | [View Task](https://roadmap.sh/projects/tooltip-ui) |
+| [Tabs](./Backend/10-tabs) | Create a simple tabs component using HTML, CSS, and JavaScript | HTML, CSS, JS | [View Task](https://roadmap.sh/projects/simple-tabs) |
