@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 300px;
+    border: 2px solid #434343;
+    border-radius: 20px;
+}
+
+.cookie {
+    position: absolute;
+    top: 95%;
+    left: 95%;
+    transform: translate(-100%, -100%);
+    padding: 20px;
+    background: black;
+    border-radius: 20px;
+}
+
+.cookie img {
+    width: 48px;
+    height: 48px;
+}
+
+.cookie p {
+    font-size: 1.2rem;
+    padding: 20px 20px 20px 0px;
+    color: white;
+}
+
+.cookieBtn {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 5px 10px;
+    width: 200px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.closeBtn {
+    font-size: 1.2rem;
+    position: absolute;
+    top: 10%;
+    left: 85%;
+    background: inherit;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
