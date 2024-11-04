@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    color: #434343;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+textarea {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    margin: 20px 0px;
+    padding: 20px;
+    font-size: 1rem;
+    border: 2px solid #434343;
+    color: #434343;
+    resize: none;
+}
+
+.textarea-limit-reached {
+    color: green;
+    border-color: green;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.count {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+}
+
+.active {
+    color: green;
+}
