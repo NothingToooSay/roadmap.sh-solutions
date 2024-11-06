@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn {
+    width: 300px;
+    padding: 10px;
+    background: #525252;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
