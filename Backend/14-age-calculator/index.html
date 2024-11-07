@@ -4,17 +4,31 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Age Calculator</title>
-        <!-- styles -->
+        <!-- Styles -->
         <link rel="stylesheet" href="./style.css" />
+        <link
+            rel="stylesheet"
+            href="https://unpkg.com/js-datepicker/dist/datepicker.min.css"
+        />
+        <!-- CDN  -->
+        <script src="https://cdn.jsdelivr.net/npm/js-datepicker"></script>
     </head>
     <body>
-        <div class="container">
+        <form class="container">
             <h1>Age Calculator</h1>
             <p>Enter your birth date:</p>
-            <span>date</span>
+            <div class="date-input">
+                <input type="text" class="age-calculator" />
+                <img
+                    src="../../assets/date.svg"
+                    alt="calendar"
+                    class="age-icon"
+                    id="date-picker"
+                />
+            </div>
             <button class="btn">Calculate</button>
-            <p>You are<strong>21 years 10 months</strong>old</p>
-        </div>
+            <div class="result"></div>
+        </form>
 
         <script src="./script.js"></script>
     </body>
