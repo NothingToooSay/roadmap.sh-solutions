@@ -1,6 +1,5 @@
 const button = document.querySelector(".btn");
-const calendar = document.querySelector(".age-icon");
-const birthdateInput = document.querySelector("age-calculator");
+const birthdateInput = document.querySelector(".age-calculator");
 const result = document.querySelector(".result");
 
 const picker = datepicker("#date-picker", {
@@ -12,14 +11,20 @@ const picker = datepicker("#date-picker", {
     },
 });
 
-calendar.addEventListener("click", () => {
-    picker.show();
-});
-
 button.addEventListener("click", (event) => {
     event.preventDefault();
     if (!birthdateInput.value) {
         result.textContent = `Please select your birth date =)`;
         return;
+    } else {
+        const dt = luxon.DateTime.now();
+        const birthDate = luxon.DateTime.fromFormat(
+            birthdateInput.value,
+            "dd.MM.yyyy"
+        );
+
+        let age = dt.year - birthDate.year;
+
+        result.textContent = `You are ${age} years old`;
     }
 });

@@ -10,26 +10,25 @@
             rel="stylesheet"
             href="https://unpkg.com/js-datepicker/dist/datepicker.min.css"
         />
-        <!-- CDN  -->
-        <script src="https://cdn.jsdelivr.net/npm/js-datepicker"></script>
     </head>
     <body>
         <form class="container">
             <h1>Age Calculator</h1>
             <p>Enter your birth date:</p>
             <div class="date-input">
-                <input type="text" class="age-calculator" />
+                <input type="text" class="age-calculator" id="date-picker" />
                 <img
                     src="../../assets/date.svg"
                     alt="calendar"
                     class="age-icon"
-                    id="date-picker"
                 />
             </div>
             <button class="btn">Calculate</button>
             <div class="result"></div>
         </form>
 
+        <script src="https://unpkg.com/js-datepicker/dist/datepicker.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/luxon@3.5.0/build/global/luxon.min.js"></script>
         <script src="./script.js"></script>
     </body>
 </html>
