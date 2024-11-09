@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.title {
+    font-size: 1.3rem;
+}
+
+.progress-container {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    padding: 4px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    width: 20%;
+    height: 20px;
+    background-color: rgb(139, 199, 245);
+    border-radius: 10px;
+}
+
+.count {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 0.9rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    height: 300px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.item {
+    height: 200px;
+}
+
+.card-question,
+.card-answer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 270px;
+    font-size: 1.1rem;
+    text-align: center;
+    background-color: rgb(193, 220, 241);
+    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.card-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    padding: 10px;
+    background-color: rgb(139, 199, 245);
+    border-radius: 10px;
+}
+
+button {
+    font-size: 1.1rem;
+    background: inherit;
+    border: none;
+    cursor: pointer;
+}
