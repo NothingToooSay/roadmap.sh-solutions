@@ -22,3 +22,4 @@ Each project focuses on a specific skill or set of skills commonly used in front
 | [Restricted Textarea](./Backend/12-restricted-textarea) | Create a textarea with live character count and a max character limit | HTML, CSS, JS | [View Task](https://roadmap.sh/projects/restricted-textarea) |
 | [Accordion](./Backend/13-accordion) | Create an accordion component using HTML, CSS, and JavaScript | HTML, CSS, JS | [View Task](https://roadmap.sh/projects/accordion) |
 | [Age Calculator](./Backend/14-age-calculator) | Create an age calculator | HTML, CSS, JS | [View Task](https://roadmap.sh/projects/age-calculator) |
+| [Age Calculator](./Backend/15-flash-cards) | Create a flash card app using JavaScript | HTML, CSS, JS | [View Task](https://roadmap.sh/projects/flash-cards) |
