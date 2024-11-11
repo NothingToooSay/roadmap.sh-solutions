@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Task Tracker</title>
+        <!-- Styles  -->
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div class="task-tracker">
+            <h2 class="title">Task Tracker</h2>
+            <div class="create-task">
+                <input
+                    type="text"
+                    class="input"
+                    placeholder="Start writing and press enter to create task"
+                />
+                <button class="enter-btn">&#9166;</button>
+            </div>
+
+            <div class="task">
+                <input type="checkbox" class="checkbox disabled" />
+                <p class="text completed">
+                    New task is created and added to the list
+                </p>
+                <button class="trash-btn">
+                    <img src="../../assets/trash.svg" alt="trash-icon" />
+                </button>
+            </div>
+        </div>
+
+        <script src="./script.js"></script>
+    </body>
+</html>

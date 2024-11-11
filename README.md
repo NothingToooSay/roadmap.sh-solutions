@@ -24,3 +24,4 @@ Each project focuses on a specific skill or set of skills commonly used in front
 | [Age Calculator](./Backend/14-age-calculator) | Create an age calculator | HTML, CSS, JS | [View Task](https://roadmap.sh/projects/age-calculator) |
 | [Flash Cards](./Backend/15-flash-cards) | Create a flash card app using JavaScript | HTML, CSS, JS | [View Task](https://roadmap.sh/projects/flash-cards) |
 | [Custom Dropdown](./Backend/16-custom-dropdown) | Create a custom dropdown using HTML, CSS, and JavaScript | HTML, CSS, JS | [View Task](https://roadmap.sh/projects/custom-dropdown) |
+| [Task Tracker](./Backend/17-task-tracker) | Create a task tracker with a to-do list using JavaScript | HTML, CSS, JS | [View Task](https://roadmap.sh/projects/task-tracker-js) |
