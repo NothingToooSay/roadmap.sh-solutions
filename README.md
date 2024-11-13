@@ -26,3 +26,4 @@ Each project focuses on a specific skill or set of skills commonly used in front
 | [Custom Dropdown](./Backend/16-custom-dropdown) | Create a custom dropdown using HTML, CSS, and JavaScript | HTML, CSS, JS | [View Task](https://roadmap.sh/projects/custom-dropdown) |
 | [Task Tracker](./Backend/17-task-tracker) | Create a task tracker with a to-do list using JavaScript | HTML, CSS, JS | [View Task](https://roadmap.sh/projects/task-tracker-js) |
 | [GitHub Random Repository](./Backend/18-github-search-repo) | Create a GitHub random repository finder using GitHub API | HTML, CSS, JS | [View Task](https://roadmap.sh/projects/github-random-repo) |
+| [Temperature Converter](./Backend/19-temperature-converter) | Build a temperature converter that converts between different units | HTML, CSS, JS | [View Task](https://roadmap.sh/projects/temperature-converter) |

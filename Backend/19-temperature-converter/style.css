@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f6f8;
+}
+
+.container {
+    width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.converter {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.temperature,
+#unit-from,
+#unit-to {
+    width: 135px;
+    height: 50px;
+    padding: 10px;
+    font-size: 1.1rem;
+    border: 2px solid #333;
+    border-radius: 8px;
+    outline: none;
+}
+
+.convert-btn {
+    width: 100%;
+    height: 45px;
+    font-size: 1.1rem;
+    background: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.convert-btn:hover {
+    background-color: #0056b3;
+}
+
+.convert-btn:active {
+    transform: scale(0.98);
+}
+
+.output {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    color: #46a756;
+}
